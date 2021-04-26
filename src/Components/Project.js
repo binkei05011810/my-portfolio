@@ -20,14 +20,14 @@ class Project extends Component {
                                             </div>
 
                                             <div className="Project-buttons">
-                                                <a className="btn btn-project" href="https://thawing-coast-67157.herokuapp.com/" target="_blank">View Page</a>
-                                                <a className="btn btn-project" href="https://github.com/binkei05011810/yelpcamp" target="_blank">Github</a>
+                                                <a className="btn btn-project" href="https://thawing-coast-67157.herokuapp.com/" target="_blank" rel="noreferrer">View Page</a>
+                                                <a className="btn btn-project" href="https://github.com/binkei05011810/yelpcamp" target="_blank" rel="noreferrer">Github</a>
                                             </div>
                                         </div>
                                     </div>
 
                                     <div className="Project-img d-flex justify-content-center align-items-center order-1 order-md-2">
-                                        <img className="img-fluid" src="https://res.cloudinary.com/minhkhue181001/image/upload/v1619206142/Webp.net-gifmaker_2_zpkrar.gif" />
+                                        <img className="img-fluid" src="https://res.cloudinary.com/minhkhue181001/image/upload/v1619206142/Webp.net-gifmaker_2_zpkrar.gif" alt="yelpcamp gif" />
                                     </div>
                                 </div>
                             </div>
@@ -37,7 +37,7 @@ class Project extends Component {
                             <div className="Project-item">
                                 <div className="Project-inner">
                                     <div className="Project-img d-flex justify-content-center align-items-center order-1">
-                                        <img className="img-fluid" src="https://res.cloudinary.com/minhkhue181001/image/upload/v1619194842/Webp.net-gifmaker_1_avpihy.gif" />
+                                        <img className="img-fluid" src="https://res.cloudinary.com/minhkhue181001/image/upload/v1619194842/Webp.net-gifmaker_1_avpihy.gif" alt="todo app gif" />
                                     </div>
 
                                     <div className="Project-description order-2">
@@ -48,8 +48,8 @@ class Project extends Component {
                                             </div>
 
                                             <div className="Project-buttons">
-                                                <a className="btn btn-project" target="_blank" href="https://nmk-todo-app.netlify.app/">View Page</a>
-                                                <a className="btn btn-project" target="_blank" href="https://github.com/binkei05011810/todo-app">Github</a>
+                                                <a className="btn btn-project" target="_blank" rel="noreferrer" href="https://nmk-todo-app.netlify.app/">View Page</a>
+                                                <a className="btn btn-project" target="_blank" rel="noreferrer" href="https://github.com/binkei05011810/todo-app">Github</a>
                                             </div>
                                         </div>
                                     </div>
@@ -68,14 +68,14 @@ class Project extends Component {
                                             </div>
 
                                             <div className="Project-buttons">
-                                                <a className="btn btn-project" href="https://wizardly-hypatia-e267bd.netlify.app/" target="_blank">View Page</a>
-                                                <a className="btn btn-project" href="https://github.com/binkei05011810/lights-out-game" target="_blank">Github</a>
+                                                <a className="btn btn-project" href="https://wizardly-hypatia-e267bd.netlify.app/" target="_blank" rel="noreferrer">View Page</a>
+                                                <a className="btn btn-project" href="https://github.com/binkei05011810/lights-out-game" target="_blank" rel="noreferrer">Github</a>
                                             </div>
                                         </div>
                                     </div>
 
                                     <div className="Project-img d-flex justify-content-center align-items-center order-1">
-                                        <img className="img-fluid" src="https://res.cloudinary.com/minhkhue181001/image/upload/v1619194835/Webp.net-gifmaker_olbqpn.gif" />
+                                        <img className="img-fluid" src="https://res.cloudinary.com/minhkhue181001/image/upload/v1619194835/Webp.net-gifmaker_olbqpn.gif" alt="lights out game gif" />
                                     </div>
                                 </div>
                             </div>
@@ -85,7 +85,7 @@ class Project extends Component {
                             <div className="Project-item">
                                 <div className="Project-inner">
                                     <div className="Project-img d-flex justify-content-center align-items-center order-1">
-                                        <img className="img-fluid" src="https://res.cloudinary.com/minhkhue181001/image/upload/v1619195602/8674905b3c57ca65503d14f79fcc3b87_phrsot.gif" />
+                                        <img className="img-fluid" src="https://res.cloudinary.com/minhkhue181001/image/upload/v1619195602/8674905b3c57ca65503d14f79fcc3b87_phrsot.gif" alt="cat gif" />
                                     </div>
 
                                     <div className="Project-description order-2">
@@ -96,7 +96,7 @@ class Project extends Component {
                                             </div>
 
                                             <div className="Project-buttons">
-                                                <a className="btn btn-project" href="https://github.com/binkei05011810" target="_blank">Follow my Github for Updates</a>
+                                                <a className="btn btn-project" href="https://github.com/binkei05011810" target="_blank" rel="noreferrer">Follow my Github for Updates</a>
                                             </div>
                                         </div>
                                     </div>
