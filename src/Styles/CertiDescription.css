@@ -1,0 +1,38 @@
+.CertiDescription h2 {
+    font-family: Playfair Display,serif;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: white;
+}
+
+.CertiDescription p {
+    color: #8c93bd;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.78;
+    letter-spacing: .44px;
+}
+
+.CertiDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+}
+
+.Certi-img {
+    width: 50%;
+    height: auto;
+}
+
+.Certi-img .img-fluid {
+    border-radius: 10px;
+}
+
+.Certi-icon {
+    width: 10%;
+    height: auto;
+}

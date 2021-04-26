@@ -1,0 +1,27 @@
+.Contact-button {
+    margin: 0;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+    text-decoration: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background: -webkit-linear-gradient(90deg, hsla(331, 78%, 69%, 1) 0%, hsla(238, 82%, 70%, 1) 100%);
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 14px 28px, rgba(255, 255, 255, 0.22) 0px 5px 10px;
+    transition: all 0.8s ease;
+}
+
+.Contact-button i {
+    font-size: 35px;
+    color: white;
+}
+
+.Contact-button:hover {
+    box-shadow: none;  
+    opacity: 0.8;
+}

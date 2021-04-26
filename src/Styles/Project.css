@@ -1,0 +1,228 @@
+#Project{
+    background: #02021e;
+}
+
+.Project-title {
+    position: relative;
+    padding: 0 0 20px;
+    margin-bottom: 50px;
+}
+
+.Project-title h2 {
+    color: white;
+    text-align: center;
+    position: relative;
+    font-family: 'Edo', arial;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.357;
+    opacity: .9;
+    margin: 0;
+}
+
+.Project-title:before {
+    width: 100px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background-color: #9fccfa;
+    transform: translateX(-50%);
+}
+
+.Project-section {
+    position: relative;
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.Project-container {
+    margin-bottom: 50px;
+}
+
+.Project-inner {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #0A121F;
+    border-radius: 10px;
+    /*box-shadow: 0 70px 140px 0 rgb(130 136 171 / 20%);*/
+
+    /*box-shadow: rgba(96, 239, 255, 0.2) 0px 8px 24px, rgba(96, 239, 255, 0.2) 0px 16px 56px, rgba(96, 239, 255, 0.2) 0px 24px 80px;*/
+    box-shadow: rgba(96, 239, 255, 0.2) 0px 1px 2px, rgba(96, 239, 255, 0.2) 0px 2px 4px, rgba(96, 239, 255, 0.2) 0px 4px 8px, rgba(96, 239, 255, 0.2) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(96, 239, 255, 0.2) 0px 32px 64px;
+}
+
+.Project-description { 
+    width: 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    padding: 36px;
+    text-align: center;
+}
+
+.Project-detail {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Project-description h3 {
+    font-family: Playfair Display,serif;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: white;
+}
+
+.Project-description h3 i{
+    color: #ed71ad;
+}
+
+.Project-description p {
+    margin-top: 20px;
+    color: #8c93bd;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.78;
+    letter-spacing: .44px;
+}
+
+.Project-buttons {
+    display: flex;
+    width: 100%;
+}
+
+.btn-project {
+    background-image: linear-gradient(to right, #0061ff, #008fff, #00b4ff, #00d3ff, #60efff);
+    box-shadow: 0 11px 36px 0 rgb(70 89 138 / 25%);
+
+    text-align: center;
+    color: white;
+
+    height: 50px;
+    padding: 16px 32px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    font-size: .688rem;
+    line-height: 18px;
+    letter-spacing: 1.54px;
+    text-transform: uppercase;
+    border-radius: 25px;
+
+    border: none;
+
+    box-shadow: 10px 10px 14px 1px rgba(255, 255, 255, 0.3);
+    transition: all 0.8s ease;
+
+    margin-right: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-project:hover {
+    box-shadow: none;
+    color: lightgrey;
+    opacity: 0.8;
+}
+
+.Project-img {
+    background: -webkit-linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9FCCFA", endColorstr="#0974F1", GradientType=1 );
+
+    border-radius: 10px 10px 0 0;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Project-img .img-fluid {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: calc(100% - 50px);
+    }
+}
+
+@media (min-width: 768px) {
+    /*from width 768 over display flex row*/
+    .Project-inner {
+        flex-direction: row;
+        border-radius: 10px;
+    }
+
+    .Project-description { 
+        min-height: 336px;
+        flex: 0 0 50%;
+        padding: 48px 56px;
+        text-align: left;
+        max-width: 50%;
+    }
+    
+    .Project-img {
+        width: 50%;
+        flex: 0 0 50%;
+        min-height: auto;
+    }
+
+    .Project-container:nth-child(even) .Project-img{
+        border-radius: 0 10px 10px 0;
+    }
+
+    .Project-container:nth-child(odd) .Project-img{
+        border-radius: 10px 0 0 10px;
+    }
+
+    .Project-img .img-fluid {
+        width: 90%;
+        border-radius: 10px;
+        height: auto;
+    }
+
+    .btn-project {
+        width: auto;
+        margin-top: 30px;
+    }
+
+    .Project-detail {
+        align-items: flex-start;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: calc(100% - 90px);
+    }
+
+    .Project-description {
+        min-height: 455px;
+        padding: 86px 60px;
+    }
+
+    .Project-inner {
+        border-radius: 15px;
+    }
+    
+    .Project-container:nth-child(even) .Project-img{
+        border-radius: 0 15px 15px 0;
+    }
+
+    .Project-container:nth-child(odd) .Project-img{
+        border-radius: 15px 0 0 15px;
+    }
+}
+
+
