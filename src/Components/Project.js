@@ -68,7 +68,7 @@ class Project extends Component {
                                             </div>
 
                                             <div className="Project-buttons">
-                                                <a className="btn btn-project" href="https://wizardly-hypatia-e267bd.netlify.app/" target="_blank" rel="noreferrer">View Page</a>
+                                                <a className="btn btn-project" href="https://nguyen-khue-lights-out-game.netlify.app/" target="_blank" rel="noreferrer">View Page</a>
                                                 <a className="btn btn-project" href="https://github.com/binkei05011810/lights-out-game" target="_blank" rel="noreferrer">Github</a>
                                             </div>
                                         </div>
